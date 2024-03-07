@@ -42,6 +42,7 @@ const Hover = () => {
           }}
         />
 
+        {/* <div className="image-overlay" /> */}
         {image && <div className="image-overlay" />}
       </div>
 
