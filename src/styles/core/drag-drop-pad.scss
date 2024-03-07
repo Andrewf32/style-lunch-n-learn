@@ -1,0 +1,27 @@
+.drag-drop-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  margin: 20px 20px 0 20px;
+  border: 3px dashed black;
+  border-radius: 15px;
+  font-family: "Cabin", sans-serif;
+  cursor: pointer;
+
+  img {
+    height: 30%;
+    margin-bottom: 1.2%;
+  }
+
+  input {
+    display: none;
+  }
+
+  .drop-hint {
+    font-size: 18px;
+    width: 30%;
+    text-align: center;
+  }
+}

@@ -1,0 +1,11 @@
+.navbar-container {
+  grid-template-columns: 10% 90%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 12px -6px rgba(0, 0, 0, 0.7);
+
+  .links-wrapper {
+    .active {
+      border-bottom-color: black;
+    }
+  }
+}

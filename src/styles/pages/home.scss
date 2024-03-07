@@ -1,0 +1,40 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    0deg,
+    rgba(9, 9, 121, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+
+  .welcome-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 40%;
+    border-radius: 25px;
+    background: linear-gradient(
+      0deg,
+      rgba(226, 226, 227, 1) 0%,
+      rgba(153, 153, 153, 1) 100%
+    );
+
+    h1,
+    h2 {
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 42px;
+    }
+
+    h2 {
+      font-size: 30px;
+    }
+  }
+}
