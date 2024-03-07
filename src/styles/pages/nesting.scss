@@ -1,0 +1,28 @@
+.nesting-container {
+  h1 {
+    font-size: 48px;
+    margin: 0;
+    text-align: center;
+  }
+
+  .cards-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 15%;
+    gap: 15%;
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+      width: 0px;
+    }
+  }
+
+  .position-wrapper {
+    .text {
+      height: 50px;
+      width: 150px;
+      border: 1px solid black;
+      text-align: center;
+    }
+  }
+}

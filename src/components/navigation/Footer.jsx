@@ -9,13 +9,9 @@ const Footer = () => {
           Home
         </NavLink>
 
-        <NavLink to="/nesting" className="link">
+        {/* <NavLink to="/nesting" className="link">
           Nesting
-        </NavLink>
-
-        <NavLink to="/position" className="link">
-          Position
-        </NavLink>
+        </NavLink> */}
 
         <NavLink to="/hover" className="link">
           Hover

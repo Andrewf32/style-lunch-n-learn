@@ -4,6 +4,10 @@ import MainContainer from "./routing/MainContainer";
 import Navbar from "./navigation/Navbar";
 import Footer from "./navigation/Footer";
 
+import solidIcons from "../assets/icons/solidIcons";
+
+solidIcons();
+
 function App() {
   return (
     <div className="app-container">
